@@ -1,0 +1,9 @@
+{
+  "name": "paadal",
+  "private": true,
+  "type": "module",
+  "description": "Paadal: songs in any language -> Tamil letters + English transliteration",
+  "dependencies": {
+    "@netlify/blobs": "^8.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+# Paadal — Netlify settings. Every push to GitHub redeploys the site automatically.
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+[[headers]]
+  for = "/words.csv"
+  [headers.values]
+    Cache-Control = "no-cache"
